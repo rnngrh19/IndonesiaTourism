@@ -1,0 +1,174 @@
+:root {
+    --primary: #000;
+    --bg:   #fff;
+    --p: #5492CC;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--bg);
+    color: var(--primary);
+  
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 9999;
+    background-color: var(--bg);
+}
+
+.navbar .logo {
+    color: var(--primary);
+    padding-left: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: none;
+}
+.navbar .menubar a {
+    color: var(--primary);
+    display: inline-block;
+    margin: 0.1rem 2rem;
+    font-weight: 500;
+}
+
+.navbar .menubar a:hover {
+    color: var(--p);
+}
+
+.navbar .menubar a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.1rem solid var(--p);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .menubar a:hover::after{
+    transform: scaleX(0.5);
+}
+
+.navbar .menubar-extra {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .menubar-extra p{
+    font-size: 1rem;
+    margin: 0rem 1rem;
+}
+
+.navbar .menubar-extra img {
+    width: 2.2rem;
+    border-radius: 50%;
+}
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../img/gatra-dwi-adiyasa-dxAdrjfVwIc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.home .cover {
+    width: 300px;
+    height: 600px;
+    background-color: var(--p);
+    
+}
+
+.home .cover .garis1 {
+    width: 20px;
+    height: 600px;
+    border-right: solid 1px var(--primary);
+}
+
+.home .content {
+    position: absolute;
+    max-width: 60%;
+    padding: 1.4rem 10%;
+}
+
+.home .content h3 {
+    font-size: 3rem;
+    color: var(--bg);
+    
+}
+
+.home .content button {
+    margin-top: 1rem;
+    padding: 0.8rem 4rem;
+    background-color: var(--bg);
+    color: var(--p);
+    border-radius: 5rem;
+    align-items: center;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 3px var(--primary));
+}
+
+.home .content button:hover {
+    color: var(--bg);
+    background-color: var(--p);
+}
+
+.home .extra {
+    position: fixed;
+    display: flex;
+    background-color: var(--bg);
+    border-radius: 5rem;
+    bottom: 0;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+
+}
+
+.home .extra .extra-destination {
+    display: flex;
+    
+    padding: 0.5rem 1rem;
+    align-items: center;
+}
+
+
+.home .extra .extra-destination .paragrap p{
+    font-size: 0.8rem;
+    margin-left: 1rem;
+}
+
+.home .extra .extra-destination .paragrap h6 {
+    margin-left: 1rem;
+}
+
+.home .extra .extra-destination a {
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,193 @@
+:root {
+    --primary: #000;
+    --bg:   #fff;
+    --p: #5492CC;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--bg);
+    color: var(--primary);
+  
+}
+
+.booking {
+    padding: 2rem 15rem 2rem 15rem;
+}
+
+.booking h4 {
+    font-size: 2rem;
+    color: var(--p);
+    font-weight: bold;
+}
+
+.booking p {
+    font-weight: 200;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.booking .detail {
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%rem;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.5);
+}
+
+.booking .detail .waktu {
+    border-bottom: 1px solid var(--primary);
+}
+
+.booking .detail .waktu h6 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.booking .detail .waktu p {
+    margin-bottom: 0.2rem;
+}
+
+.booking .detail h5{
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.booking .detail .nama {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 11rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.booking .detail .nama input {
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.booking .detail .nama p {
+    padding-left: 0.5rem;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.booking .detail .nama .number select{
+    border: 1px solid var(--primary);
+    padding: 0.7rem 0.5rem;
+    border-radius: 5px;
+    margin-right: 0.4rem;
+}
+
+.booking .detail .nama .number  p {
+    max-width: 40%;
+}
+
+.booking .detail .nama .number input {
+    border: 1px solid var(--primary);
+    width: 44%;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-right: 0.1rem;
+}
+
+.booking .detail .nama .extra {
+    display: flex;
+}
+
+.booking .detail .nama .extra p {
+    margin-right: 7rem;
+    max-width: 40%;
+   
+}
+
+.booking .detail .policy {
+    padding: 1rem 1rem 1rem 1rem;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    margin-top: 1rem;
+    width: 100%;
+    height: 10rem;
+}
+
+.booking .detail .policy h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.booking .detail .policy p {
+    text-align: justify;
+}
+
+.booking .detail .harga {
+    width: 100%;
+    height: 10rem;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.booking .detail .harga .total {
+    border-bottom: 1px solid var(--primary);
+    display: flex;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.booking .detail .harga .total1 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking .button {
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.booking .button p {
+    max-width: 30%;
+    font-weight: 200;
+}
+
+.booking .button button {
+    height: 3rem;
+    padding: 0 4rem;
+    color: var(--bg);
+    background-color: var(--p);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.booking .button button:hover {
+    color: var(--p);
+    background-color: var(--bg);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+}
+
+

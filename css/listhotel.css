@@ -1,0 +1,205 @@
+:root {
+    --primary: #000;
+    --bg:   #fff;
+    --p: #5492CC;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--bg);
+    color: var(--primary);
+  
+}
+
+.hotel {
+    padding: 2rem 15rem 2rem 15rem;
+    width: 100%;
+    height: 20rem;
+}
+
+.hotel .search {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel .search .formkota {
+    display: flex;
+    color: var(--p);
+    align-items: center;
+    padding: 1rem 1rem;
+    width: 25%;
+    height: 3rem;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+    border-radius: 1rem;
+}
+
+.hotel .search .formkota h5 {
+    font-size: 1rem;
+    color: var(--p);
+    margin-left: 1rem;
+}
+
+.hotel .search a .formtanggal {
+
+    display: flex;
+    color: var(--p);
+    align-items: center;
+    padding: 1rem 1rem;
+    width: 100%;
+    height: 3rem;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+.hotel .search .formtanggal .awal {
+    display: flex;
+    align-items: center;
+    
+}
+
+.hotel .search .formtanggal .awal h5{
+    margin-left: 1rem;
+}
+
+.cari {
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.cari input {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.list {
+    margin-top: 1rem;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.list img {
+    height:100%;
+    width: 30%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+}
+
+.list .title {
+    width: 40%;
+    height: 100%;
+    padding: 1rem 1rem;
+}
+
+.list .title h4{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--p);
+}
+
+.list .title .star {
+    display: flex;
+    align-items: center;
+    color: var(--p);
+    padding-top: 0.5rem;
+}
+
+.list .title .star p {
+    padding-left: 0.5rem;
+}
+
+.list .title .star p span {
+    color: var(--primary);
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.list .title .harga {
+    padding: 1rem 2rem;
+}
+
+.list .title .harga p {
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+}
+
+.list .title .harga h4 span {
+    font-weight: 200;
+    color: var(--primary);
+    font-size: 1rem;
+}
+
+.list .title .lokasi {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    color: var(--p);
+}
+
+.list .title .lokasi p {
+    padding-left: 0.5rem;
+    color: var(--primary);
+    font-weight: 200;
+}
+
+.list .tambah {
+    width: 10%;
+    height: 100%;
+    color: var(--p);
+    
+}
+
+.list .tambah .simpan {
+    margin: 1rem 10rem;
+    text-align: end;
+}
+
+.list .tambah button{
+    margin-top: 7rem;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    background-color: var(--p);
+    color: var(--bg);
+    cursor: pointer;
+}
+
+.list .tambah button:hover {
+    color: var(--p);
+    background-color: var(--bg);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+}
+
+
+
+
+
+
+
+
